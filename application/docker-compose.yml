@@ -1,0 +1,38 @@
+version: '3'
+services:
+
+  frontend:
+    build: './API'
+    container_name: api
+    command: /bin/bash -c "python3 api.py"
+    stdin_open: true
+    tty: true
+    ports:
+      - '8080:8080'
+    expose:
+      - "8080"
+    networks:
+      net0:
+        ipv4_address: 172.20.0.5
+    volumes:
+      - ./API:/api
+
+  database:
+    image: khaller/graphdb-free:10.5.1
+    container_name: database
+    ports:
+      - '7200:7200'
+    expose:
+      - "7200"
+    volumes:
+      - ./Database:/opt/graphdb/data
+    networks:
+      net0:
+        ipv4_address: 172.20.0.6
+
+networks:
+  net0:
+    driver : bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16

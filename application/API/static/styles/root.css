@@ -1,0 +1,53 @@
+#loading-spinner {
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    border: 1rem solid lightgray;
+    border-top: 1rem solid rgb(0, 120, 16);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#openapi-file{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#loading-container{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.result-card{
+    width: 22em;
+    height: 27em;
+    border-radius: 1rem;
+    background: rgb(200, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.result-card .card-icon{
+    border-radius: 0.5rem;
+    height: 70%;
+    width:90%;
+
+}
+
+#navbar{
+    background: rgb(200, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
