@@ -1,8 +1,6 @@
-# Work reference
-Emmanouil-Georgios Ieronymakis, "Description of asynchronous service functionality in the OpenAPI standard", Diploma Work, Diploma Work, School of Electrical and Computer Engineering, Technical University of Crete, Chania, Greece, 2024 
+## Publications
+- Emmanouil-Georgios Ieronymakis, "Description of asynchronous service functionality in the OpenAPI standard", Diploma Work, Diploma Work, School of Electrical and Computer Engineering, Technical University of Crete, Chania, Greece, 2024 
 https://doi.org/10.26233/heallink.tuc.100531
-
-# Previous Lab Work
  - 	Nikolaos Lagogiannis, "OpenAPI SPARQL: Querying OpenAPIOntologies in OWL", Diploma Work, School of Electrical and Computer Engineering, Technical University of Crete, Chania, Greece, 2022
     https://doi.org/10.26233/heallink.tuc.93679
 
