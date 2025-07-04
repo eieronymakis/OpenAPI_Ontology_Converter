@@ -1,10 +1,6 @@
 ## Publications
 - Emmanouil-Georgios Ieronymakis, "Description of asynchronous service functionality in the OpenAPI standard", Diploma Work, Diploma Work, School of Electrical and Computer Engineering, Technical University of Crete, Chania, Greece, 2024 
 https://doi.org/10.26233/heallink.tuc.100531
- - 	Nikolaos Lagogiannis, "OpenAPI SPARQL: Querying OpenAPIOntologies in OWL", Diploma Work, School of Electrical and Computer Engineering, Technical University of Crete, Chania, Greece, 2022
-    https://doi.org/10.26233/heallink.tuc.93679
-
-- Fotios Bouraimis, "Instantiating OpenAPI descriptions to the REST services ontology", Diploma Work, School of Electrical and Computer Engineering, Technical University of Crete, Chania, Greece, 2021 https://doi.org/10.26233/heallink.tuc.88861
 
 - F. Bouraimis, N. Mainas and E. G. M. Petrakis, "Composition and polymorphism support in the OpenAPI ontology," in Advanced Information Networking and Applications, vol. 449, Lecture Notes in Networks and Systems, L. Barolli, F. Hussain, T. Enokido, Eds., Cham, Switzerland: Springer Nature, 2022, vol. 1, pp. 309–320. doi: 10.1007/978-3-030-99584-3_2
 https://doi.org/10.1007/978-3-030-99584-3_27
